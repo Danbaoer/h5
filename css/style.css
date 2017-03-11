@@ -1,0 +1,161 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px; }
+
+.container-fluid {
+  background: #0097CF;
+  height: 60px;
+  color: #fff;
+  padding-left: 170px;
+  padding-right: 180px; }
+  .container-fluid .navbar-header {
+    padding-left: 120px;
+    float: left;
+    font-size: 24px;
+    margin-top: 10px;
+    background: url("../images/head.png") no-repeat; }
+    .container-fluid .navbar-header img {
+      width: 115px;
+      height: 39px;
+      padding-right: 4px; }
+  .container-fluid .nav li {
+    font-size: 16px;
+    line-height: 60px;
+    padding-left: 51px; }
+    .container-fluid .nav li a {
+      color: #fff; }
+  .container-fluid .nav li:active {
+    background: #0088BA; }
+  .container-fluid .navbar-text {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff; }
+    .container-fluid .navbar-text .fa-user {
+      color: #fff; }
+    .container-fluid .navbar-text span {
+      color: #3CB9E8;
+      padding-left: 12px; }
+
+.wrap {
+  background: #FAFAFA; }
+
+.section {
+  width: 1200px;
+  height: 2190px;
+  margin: auto;
+  background: #fff;
+  clear: both;
+  padding-top: 60px;
+  padding-left: 27px;
+  border: 1px solid #E6E6E6; }
+  .section h2 {
+    position: relative; }
+    .section h2 span {
+      color: #0097CF;
+      font-size: 20px;
+      padding-right: 9px; }
+    .section h2 .btn-warning {
+      height: 40px;
+      margin-left: 12px;
+      border: 1px solid #DA9800;
+      padding: 12px 27px;
+      font-size: 16px;
+      display: inline-block; }
+    .section h2 input {
+      height: 37px; }
+    .section h2 .fa-search {
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      left: 132px;
+      top: 3px;
+      color: #DFDFE1; }
+  .section .section-head {
+    margin-top: 25px; }
+    .section .section-head dl {
+      float: left;
+      margin-right: 70px; }
+      .section .section-head dl dt {
+        padding: 6px 24px 2px 23px;
+        border: 1px solid #ccc; }
+        .section .section-head dl dt img {
+          width: 133px;
+          height: 182px; }
+      .section .section-head dl dd {
+        padding-top: 10px; }
+    .section .section-head ul {
+      width: 428px;
+      border: 1px solid #E6E6E6;
+      padding-top: 8px;
+      padding-left: 9px;
+      height: 188px; }
+      .section .section-head ul p {
+        font-weight: bolder;
+        font-size: 18px; }
+      .section .section-head ul li {
+        white-space: nowrap;
+        padding-bottom: 17px; }
+    .section .section-head ol {
+      border: 1px solid #E6E6E6;
+      padding-top: 15px;
+      padding-left: 15px;
+      float: right;
+      width: 429px;
+      height: 188px;
+      margin-right: 30px; }
+      .section .section-head ol p {
+        color: #0097CF; }
+      .section .section-head ol li {
+        padding: 7px;
+        white-space: nowrap;
+        border: 1px solid #A9A9A9;
+        margin: 2%;
+        position: relative;
+        width: 20%;
+        background: #F7F7F7; }
+        .section .section-head ol li .fa-times-circle {
+          width: 15px;
+          height: 15px;
+          color: #F4C600;
+          position: absolute;
+          top: -6px;
+          right: -6px; }
+  .section .con {
+    clear: both; }
+    .section .con ul {
+      height: 36px;
+      background: #F8F8F8; }
+      .section .con ul li {
+        border: 1px solid #E6E6E6;
+        padding: 0; }
+      .section .con ul li:hover, .section .con ul .hover {
+        background: #fff;
+        border-bottom: none;
+        border-top: 2px solid #0097CF;
+        color: #0097CF; }
+  .section .table {
+    clear: both;
+    width: 50%; }
+    .section .table .none {
+      border-bottom: 1px dashed #A9A9A9; }
+    .section .table th {
+      border-bottom: none;
+      font-size: 18px; }
+    .section .table td {
+      border: none; }
+      .section .table td a {
+        color: #0097CF;
+        text-decoration: none; }
+    .section .table dl dt {
+      padding: 0 17px; }
+      .section .table dl dt img {
+        width: 64px;
+        height: 64px; }
+    .section .table dl dd {
+      padding-top: 6px; }
+  .section .pull {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
