@@ -108,6 +108,7 @@
       height: 188px;
       margin-right: 30px; }
       .section .section-head ol .add {
+        display: block;
         display: none; }
       .section .section-head ol p {
         color: #0097CF; }
