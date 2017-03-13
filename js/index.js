@@ -1,8 +1,9 @@
 /**
  * Created by asus on 2017/3/13.
  */
-$("#ols li").last().on("click",function(){
+$(".ols li").last().on("click",function(){
     $(".add").show();
+    $(".fa-times-circle").show();
 })
 $("#btn").on("click",function(){
     var val=$("#text").val();
@@ -12,8 +13,9 @@ $("#btn").on("click",function(){
         alert("字数不能多于5个")
         $("input").val("");
     }else{
-        $("#ols li").last().before('<li class="col-md-3 text-center">'+val+'<i class="fa fa-times-circle"></i></li>');
+        $(".ols li").last().before('<li class="col-md-3 text-center">'+val+'<i class="fa fa-times-circle"></i></li>');
         $("input").val("");
         $(".add").hide();
+        $(".fa-times-circle").show();
     }
 })
