@@ -20,14 +20,16 @@
       width: 115px;
       height: 39px;
       padding-right: 4px; }
-  .container-fluid .nav li {
-    font-size: 16px;
-    line-height: 60px;
-    padding-left: 51px; }
-    .container-fluid .nav li a {
-      color: #fff; }
-  .container-fluid .nav li:active {
-    background: #0088BA; }
+  .container-fluid .nav {
+    padding-left: 100px; }
+    .container-fluid .nav li {
+      font-size: 16px;
+      line-height: 60px;
+      padding-left: 51px; }
+      .container-fluid .nav li a {
+        color: #fff; }
+    .container-fluid .nav li:active {
+      background: #0088BA; }
   .container-fluid .navbar-text {
     margin-top: 10px;
     font-size: 12px;
@@ -105,6 +107,8 @@
       width: 429px;
       height: 188px;
       margin-right: 30px; }
+      .section .section-head ol .add {
+        display: none; }
       .section .section-head ol p {
         color: #0097CF; }
       .section .section-head ol li {
@@ -138,13 +142,16 @@
   .section .table {
     clear: both;
     width: 50%; }
+    .section .table tbody {
+      padding-top: 10px; }
     .section .table .none {
       border-bottom: 1px dashed #A9A9A9; }
     .section .table th {
       border-bottom: none;
       font-size: 18px; }
     .section .table td {
-      border: none; }
+      border: none;
+      line-height: 24px; }
       .section .table td a {
         color: #0097CF;
         text-decoration: none; }
