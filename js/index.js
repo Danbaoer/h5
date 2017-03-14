@@ -19,3 +19,6 @@ $("#btn").on("click",function(){
         $(".fa-times-circle").show();
     }
 })
+$(".ols").on("click",".fa-times-circle",function(){
+    $(this).parent("li").remove();
+})
