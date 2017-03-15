@@ -44,8 +44,6 @@
   background: #FAFAFA; }
 
 .section {
-  width: 1200px;
-  height: 2190px;
   margin: auto;
   background: #fff;
   clear: both;
@@ -75,9 +73,10 @@
       top: 3px;
       color: #DFDFE1; }
   .section .section-head {
+    display: flex;
     margin-top: 25px; }
     .section .section-head dl {
-      float: left;
+      flex: 1;
       margin-right: 70px; }
       .section .section-head dl dt {
         padding: 6px 24px 2px 23px;
@@ -88,7 +87,6 @@
       .section .section-head dl dd {
         padding-top: 10px; }
     .section .section-head ul {
-      width: 428px;
       border: 1px solid #E6E6E6;
       padding-top: 8px;
       padding-left: 9px;
@@ -103,10 +101,8 @@
       border: 1px solid #E6E6E6;
       padding-top: 15px;
       padding-left: 15px;
-      float: right;
-      width: 429px;
       height: 188px;
-      margin-right: 30px; }
+      margin-left: 30px; }
       .section .section-head ol .add {
         display: block;
         display: none; }
